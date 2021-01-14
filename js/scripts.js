@@ -2,7 +2,7 @@
 function newItem(){
 
 let li = $('<li></li>');
-let inputValue = $('#input').value();
+let inputValue = $('#input').val();
 li.append(inputValue);
 
 if (inputValue === '') {
